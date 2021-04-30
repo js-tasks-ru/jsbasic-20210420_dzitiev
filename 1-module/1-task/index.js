@@ -1,6 +1,6 @@
 function factorial(n) {
   let factorial = 1;
-  for (; n!=0 ;)
+  while (n!=0)
   factorial *=n-- ;
   return factorial;
 }
